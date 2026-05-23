@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>small human gift</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            background-color: #f5f0e8;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-weight: 300;
+            color: #3a3530;
+            min-height: 100vh;
+            padding: 60px 40px;
+        }
+
+        header {
+            margin-bottom: 80px;
+        }
+
+        header h1 {
+            font-size: 13px;
+            font-weight: 300;
+            letter-spacing: 0.15em;
+            text-transform: lowercase;
+        }
+
+        header p {
+            font-size: 11px;
+            letter-spacing: 0.1em;
+            color: #9a8f85;
+            margin-top: 6px;
+        }
+
+        .canvas {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        .piece {
+            position: absolute;
+            max-width: 340px;
+        }
+
+        .piece img {
+            width: 100%;
+            display: block;
+        }
+
+        .piece .note {
+            font-size: 10px;
+            letter-spacing: 0.08em;
+            color: #9a8f85;
+            margin-top: 8px;
+            text-transform: lowercase;
+        }
+
+        /* piece positions — scattered, organic */
+        .piece:nth-child(1) {
+            top: 0px;
+            left: 5%;
+            max-width: 300px;
+            transform: rotate(-1.5deg);
+        }
+
+        .piece:nth-child(2) {
+            top: 40px;
+            left: 42%;
+            max-width: 260px;
+            transform: rotate(1deg);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>small human gift</h1>
+        <p>a document of making</p>
+    </header>
+
+    <div class="canvas">
+
+        <div class="piece">
+            <img src="painting.jpg" alt="painting in progress">
+            <p class="note">painting in progress</p>
+        </div>
+
+        <div class="piece">
+            <img src="bread.jpg" alt="pao de queijo">
+            <p class="note">pão de queijo, sunday</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
