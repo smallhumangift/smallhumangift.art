@@ -1,0 +1,59 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work in progress — small human gift</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .post {
+            max-width: 600px;
+            margin-top: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #d8cfc3;
+        }
+        .post .date {
+            font-size: 10px;
+            letter-spacing: 0.08em;
+            color: #9a8f85;
+            text-transform: lowercase;
+        }
+        .post h2 {
+            font-size: 15px;
+            font-weight: 400;
+            margin: 6px 0 10px 0;
+            text-transform: lowercase;
+        }
+        .post p {
+            font-size: 13px;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>small human gift</h1>
+        <p>a document of making</p>
+        <nav>
+            <a href="index.html">home</a>
+            <a href="work.html">finished work</a>
+            <a href="progress.html">work in progress</a>
+            <a href="cv.html">cv</a>
+            <a href="shop.html">shop</a>
+        </nav>
+    </header>
+
+    {% for post in site.posts %}
+    <div class="post">
+        <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+    </div>
+    {% endfor %}
+
+</body>
+</html>
