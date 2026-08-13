@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: null
 title: "first post"
 date: 2026-08-13
 ---
