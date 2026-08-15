@@ -12,7 +12,7 @@ body {
     background-color: #f5f0e8;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    color: #3a3530;
+    color: #362b28;
     min-height: 100vh;
     padding: 60px 40px;
 }
@@ -44,7 +44,7 @@ nav a {
     font-size: 14px;
     letter-spacing: 0.1em;
     text-transform: lowercase;
-    color: #3a3530;
+    color: #362b28;
     text-decoration: none;
     margin-right: 24px;
     padding-bottom: 2px;
