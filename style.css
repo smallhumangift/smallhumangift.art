@@ -117,13 +117,16 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-..menu-toggle {
+.menu-toggle {
     display: none;
     position: absolute;
     top: 0;
     right: 0;
     background: none;
-    border: none;
+    border: 1px solid #9a8f85;
+    border-radius: 0;
+    appearance: none;
+    -webkit-appearance: none;
     color: #362b28;
     font-size: 18px;
     padding: 6px 12px;
