@@ -8,6 +8,14 @@ header h1 a {
     text-decoration: none;
 }
 
+@media (max-width: 600px) {
+    nav {
+        flex-wrap: wrap;
+        gap: 12px 20px;
+        justify-content: flex-start;
+    }
+}
+
 body {
     background-color: #f5f0e8;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -38,7 +46,7 @@ header p {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 500px;
     max-width: 100%
     margin-top: 20px;
 }
