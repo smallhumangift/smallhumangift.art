@@ -37,6 +37,10 @@ header p {
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    max-width: 100%;
     margin-top: 20px;
 }
 
@@ -46,7 +50,6 @@ nav a {
     text-transform: lowercase;
     color: #362b28;
     text-decoration: none;
-    margin-right: 24px;
     padding-bottom: 2px;
     border-bottom: 1px solid transparent;
 }
