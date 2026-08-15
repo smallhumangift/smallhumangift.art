@@ -55,11 +55,38 @@ header p {
 
 nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 500px;
+    max-width: 100%;
     margin-top: 40px;
 }
 
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: none !important;
+}
+
+.instagram-link:hover {
+    opacity: 0.6;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.instagram-link {
+    display: inline-flex;
+    color: #362b28;
+}
+
+.instagram-link:hover {
+    opacity: 0.6;
+}
 nav a {
     font-size: 14px;
     letter-spacing: 0.1em;
