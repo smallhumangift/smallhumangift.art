@@ -120,7 +120,7 @@ nav a:hover {
 .menu-toggle {
     display: none;
     position: absolute;
-    top: 0;
+    top: -20;
     right: 0;
     background: none;
     border: 1px solid #362b28;
