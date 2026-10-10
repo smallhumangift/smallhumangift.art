@@ -1,3 +1,21 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 40px;
+}
+
+.grid-item img {
+    width: 100%;
+    display: block;
+}
+
+.grid-item .note {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    color: #9a8f85;
+    margin-top: 8px;
+    text-transform: lowercase;
+}
 * {
     margin: 0;
     padding: 0;
